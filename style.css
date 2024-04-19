@@ -1,0 +1,52 @@
+html{
+    background-image: url(background.png);
+    color: white;
+    text-shadow: black 1px 1px;
+}
+
+body{
+    margin:0;
+}
+
+main{
+    background-color: antiquewhite;
+    border-radius:4rem;
+    border-style:solid;
+    color: black;
+    margin: 6rem auto;
+    padding:2rem;
+    text-align: center;
+    text-shadow: none;
+    width: 50%;
+}
+
+#nav-list{
+    background-color: #859f96d6;
+    border-style: solid;
+    border-color: black;
+    display: flex;
+    font-size: 25px;
+    justify-content: space-evenly;
+    list-style: none;
+    margin:0;
+    padding: 1rem;
+}
+
+nav{
+    /* the backdrop-filter: blur will apply an 8px gaussian blur to the navigation bar, which will blur anything that sits beneath it. */
+    backdrop-filter: blur(8px); 
+    position:sticky;
+    top:0;
+}
+
+footer{
+    background-color: #859f96d6;
+    border-style: solid;
+    border-color: black;
+    font-size:25px;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* I first learned about this property from w3Schools, and then experimented with it with friends.
+The link to the w3page = https://www.w3schools.com/cssref/css3_pr_backdrop-filter.php */
